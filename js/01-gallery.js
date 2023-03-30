@@ -30,19 +30,7 @@ galleryEl.onclick = function (event) {
   });
 };
 
-//OR...all changed
-
-// const galleryEl = document.querySelector(".gallery");
-// console.log(galleryEl);
-
-// const images = galleryItems
-//   .map(
-//     (photo) =>
-//       `<li class="gallery__item"><img class="gallery__image" src="${photo.preview}" data-source="${photo.original}" alt="${photo.description}"/></li>`
-//   )
-//   .join("");
-// console.log(images);
-// galleryEl.insertAdjacentHTML("beforeend", images);
+//OR...
 
 //                           ("onclick")
 // galleryEl.addEventListener("click", (event) => {
