@@ -14,3 +14,15 @@ const lightbox = new SimpleLightbox(".gallery a", {
   captionDelay: 250,
   captionsData: "alt",
 });
+
+// OR
+
+// const images = galleryItems
+//   .map(
+//     (photo) =>
+//       `<li class="gallery__item"><a class="gallery__link" href="${photo.original}"><img class="gallery__image" src="${photo.preview}"  alt=""  title ="${photo.description}" /></a></li>`
+//   )
+//   .join("");
+// galleryEl.insertAdjacentHTML("beforeend", images);
+
+// const lightbox = new SimpleLightbox(".gallery a", {});
